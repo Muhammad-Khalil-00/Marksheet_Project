@@ -1,0 +1,154 @@
+import java.util.Scanner;
+public class Marksheetprjct {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("A Project By MK MALIK");
+        System.out.println("Name");
+        String a = sc.nextLine();
+        System.out.println("Father Name");
+        String b = sc.nextLine();
+      
+        System.out.println("Institute ");
+        String e= sc.nextLine();
+        System.out.println("SurName ");
+        String Name=sc.nextLine();
+        System.out.println("Group");
+        String d = sc.nextLine();
+        if(d.equals("pre engineering")){
+           System.out.println("Roll No ");
+           int c = sc.nextInt();
+      
+           System.out.println("PLZ Enter The Subject Marks");
+           System.out.println("English Marks ");
+           int f = sc.nextInt();
+           System.out.println("Mathematics Marks ");
+           int g = sc.nextInt();
+           System.out.println("Chemistry(Th) Marks ");
+           int h = sc.nextInt();
+           System.out.println("Physics(Th) Marks ");
+           int i = sc.nextInt();
+           System.out.println("Urdu Marks");
+           int j = sc.nextInt();
+           System.out.println("Islamiat Marks ");
+           int k = sc.nextInt();
+           System.out.println("Physics(pr) Marks ");
+           int l = sc.nextInt();
+           System.out.println("Chemistry(pr) Marks ");
+           int m = sc.nextInt();
+           System.out.println("________________________________________________________________________________________________________");
+           System.out.println("                   Board Of Intermediate And Secomdary Education Larkana (Sindh)");
+           System.out.println("_________________________________________________________________________________________________________");
+           System.out.println("                           Marks Certificate ");
+           System.out.println("_________________________________________________________________________________________________________");
+           System.out.println("Name          : "         +a);
+           System.out.println("Father Name   : "         +b);
+           System.out.println("Group         : "         +d);
+           System.out.println("Institute     : "         +e);
+           System.out.println("Sur Name      : "         +Name);
+           System.out.println("Roll No       : "         +c);
+           System.out.println("__________________________________________________________________________________________________________");
+           System.out.println("Subjects         |Maximum Marks                     |Obtained Marks ");
+           System.out.println("  English        |100                             |"+f);
+           System.out.println("  MatheMatics    |100                             |"+g);
+           System.out.println("  Physics(Th)    |100                             |"+i);
+           System.out.println("  Chemistry(Th)  |100                             |"+h);
+           System.out.println("  Physics(Pr)    |15                              |"+l);
+           System.out.println("  Chemistry(Pr)  |15                              |"+m);
+           System.out.println("  Urdu           |100                             |"+j);
+           System.out.println("  Islamiat       |100                             |"+k);
+           System.out.println("____________________________________________________________________________________________________________");
+           int total=630;
+           int obt=(f+g+h+i+j+k+l+m);
+           float per=(obt*100)/total;
+           System.out.println(" Total Marks   =  630               ");
+           System.out.println(" Obtained Marks  = "+(f+g+h+i+j+k+l+m));
+           System.out.println(" Percentage     = "+per+"%");
+          if(per==0&&per<=49){
+            System.out.println(  "Grade     =                                    | F"); 
+            System.out.println("You Are Fail"); 
+          }else if (per<=69){
+            System.out.println(  "Grade : c ");
+            
+          }else if (per<=79){
+            System.out.println(  "Grade : B");  
+          }else if (per<=89){
+            System.out.println(  "Garde : A");  
+          }else if(per<=100){
+            System.out.println(  "Grade : A1");  
+          }else if (per>100){
+            System.out.println("You Result Is Wrong Plz Enter Corret The Subjects Marks");
+          }
+          System.out.println("Date :______________"                       +"checked by :_____________"    +"prepared :____________"    +"Controller of Examination:____________");
+
+        }else if(d.equals("pre medical")){
+            System.out.println("Roll No ");
+           int c = sc.nextInt();
+      
+           System.out.println("PLZ Enter The Subject Marks");
+           System.out.println("English Marks ");
+           int f = sc.nextInt();
+           System.out.println("Biology Marks ");
+           int g = sc.nextInt();
+           System.out.println("Chemistry(Th) Marks ");
+           int h = sc.nextInt();
+           System.out.println("Physics(Th) Marks ");
+           int i = sc.nextInt();
+           System.out.println("Urdu Marks");
+           int j = sc.nextInt();
+           System.out.println("Islamiat Marks ");
+           int k = sc.nextInt();
+           System.out.println("Physics(pr) Marks ");
+           int l = sc.nextInt();
+           System.out.println("Chemistry(pr) Marks ");
+           int m = sc.nextInt();
+           System.out.println("________________________________________________________________________________________________________");
+           System.out.println("                   Board Of Intermediate And Secomdary Education Larkana (Sindh)");
+           System.out.println("_________________________________________________________________________________________________________");
+           System.out.println("                           Marks Certificate ");
+           System.out.println("_________________________________________________________________________________________________________");
+           System.out.println("Name          : "         +a);
+           System.out.println("Father Name   : "         +b);
+           System.out.println("Group         : "         +d);
+           System.out.println("Institute     : "         +e);
+           System.out.println("Sur Name      : "         +Name);
+           System.out.println("Roll No       : "         +c);
+           System.out.println("__________________________________________________________________________________________________________");
+           System.out.println("Subjects         |Maximum Marks                     |Obtained Marks ");
+           System.out.println("  English        |100                             |"+f);
+           System.out.println("  Biology        |100                             |"+g);
+           System.out.println("  Physics(Th)    |100                             |"+i);
+           System.out.println("  Chemistry(Th)  |100                             |"+h);
+           System.out.println("  Physics(Pr)    |15                              |"+l);
+           System.out.println("  Chemistry(Pr)  |15                              |"+m);
+           System.out.println("  Urdu           |100                             |"+j);
+           System.out.println("  Islamiat       |100                             |"+k);
+           System.out.println("____________________________________________________________________________________________________________");
+           int total=630;
+           int obt=(f+g+h+i+j+k+l+m);
+           float per=(obt*100)/total;
+           System.out.println(" Total Marks   =  630               ");
+           System.out.println(" Obtained Marks  = "+(f+g+h+i+j+k+l+m));
+           System.out.println(" Percentage     = "+per+"%");
+          if(per==0&&per<=49){
+            System.out.println(  "Grade     =                                    | F"); 
+            System.out.println("You Are Fail"); 
+          }else if (per<=69){
+            System.out.println(  "Grade : c ");
+            
+          }else if (per<=79){
+            System.out.println(  "Grade : B");  
+          }else if (per<=89){
+            System.out.println(  "Garde : A");  
+          }else if(per<=100){
+            System.out.println(  "Grade : A1");  
+          }else if (per>100){
+            System.out.println("You Result Is Wrong Plz Enter Corret The Subjects Marks");
+          }
+          System.out.println("Date :______________"                       +"checked by :_____________"    +"prepared :____________"    +"Controller of Examination:____________");
+
+            
+        }
+  }
+    }
+    
+
